@@ -11,6 +11,4 @@ class ExpensesController < ApplicationController
        @expenses = @expenses.where("category_id = ?", params[:category_id])
      end
    end
-
-
  end
